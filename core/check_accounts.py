@@ -1,7 +1,7 @@
 import aiofiles
 from loguru import logger
 
-from custom_types.formatted_account import FormattedAccount
+from custom_types import FormattedAccount
 from utils import format_account
 from .get_eligible_list import eligible_list
 from utils import loader
